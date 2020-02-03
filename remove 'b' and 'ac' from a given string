@@ -9,7 +9,7 @@ int main()
     for(i=0;i<t;i++)
     {
         printf("Enter the string:");
-        scanf("%s",a);
+        scanf("%s",&a);
         while(a[i]!='\0')
         {
              
