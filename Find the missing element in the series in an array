@@ -20,6 +20,6 @@ int main()
        }
        printf("\n");
       }
-      return o;
+      return 0;
      }
         
