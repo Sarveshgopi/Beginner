@@ -4,7 +4,7 @@
 int main()
 {
    int t,k;
-   char a[1000];
+   char a[1000],c;
    printf("ENTER THE NUMBER OF TESTCASES:");
    scanf("%d",&t);
    for(k=0;k<t;k++)
