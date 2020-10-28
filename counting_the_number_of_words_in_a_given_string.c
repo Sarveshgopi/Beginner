@@ -2,10 +2,10 @@
 #include<stdlib.h>
 int main()
 {
-   char a[1000];
-   int t;
+   char inputstring[1000];
+   int testcases;
    printf("ENTER THE NUMBER OF TESTCASES:");
-   scanf("%d",&t);
+   scanf("%d",&testcases);
    for(int k=0;k<t;k++)
    {
        printf("ENTER THE STRING");
