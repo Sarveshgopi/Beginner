@@ -1,8 +1,8 @@
                        '''          THE ALGORITHM OF FINDING AN ARMSTRONG NUMBER 
               A number is said to be a armstrong number, if the sum of the cube of the digits is equal to that number.
  
-                                              arm=0
-                                              temp=number
+                                              arm <- 0
+                                              temp <- number
                                               while number!=0 do
                                                     arm+=(number%10)**3
                                                     number//=10
@@ -11,7 +11,7 @@
                                               else
                                                     write "NOT AN ARMSTRONG NUMBER"          '''
 
-  ''' START OF THE SCRIPT  '''
+  '''   START OF THE SCRIPT   '''
 
 inputnumber=int(input())    #READING THE INPUT
 temp=inputnumber
