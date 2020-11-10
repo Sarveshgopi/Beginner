@@ -3,6 +3,7 @@
 inputnumber=int(input())    #READING THE INPUT
 temp=inputnumber
 temp1=0
+
 '''          THE ALGORITHM OF FINDING AN ARMSTRONG NUMBER 
   A number is said to be a armstrong number, if the sum of the cube of the digits is equal to that number.
  
