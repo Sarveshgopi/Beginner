@@ -1,10 +1,4 @@
-''' START OF THE SCRIPT  '''
-
-inputnumber=int(input())    #READING THE INPUT
-temp=inputnumber
-temp1=0
-
-                        '''          THE ALGORITHM OF FINDING AN ARMSTRONG NUMBER 
+                       '''          THE ALGORITHM OF FINDING AN ARMSTRONG NUMBER 
               A number is said to be a armstrong number, if the sum of the cube of the digits is equal to that number.
  
                                               arm=0
@@ -16,9 +10,16 @@ temp1=0
                                                     write "ARMSTRONG NUMBER"
                                               else
                                                     write "NOT AN ARMSTRONG NUMBER"          '''
+
+  ''' START OF THE SCRIPT  '''
+
+inputnumber=int(input())    #READING THE INPUT
+temp=inputnumber
+temp1=0
+
 while temp!=0:
    integer=(temp%10)**3
-   temp1+=integer
+   temp1+=integer          ''' process '''
    temp//=10
 if temp1==inputnumber:
    print('It is an Armstrong number')
