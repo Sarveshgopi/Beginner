@@ -4,7 +4,7 @@
                                for i <- 0 to (length of a)-1 do
                                     if a[i] <- 32 then 
                                         c+=1
-                                write c+1                                                                                                 
+                               write c+1                                                                                                 
                                                                    */
 
 #include<stdio.h>
