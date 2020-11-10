@@ -1,3 +1,13 @@
+/*
+               ### TO CHECK THE WHETHER THE SUB-STRING CONSIDERED IS PALINDROMIC OR NOT ###
+               for i -> 0 to length of the input string do
+                   for j -> i+2 to length of the input string do
+                        temp1 -> input string from index i to j
+                        temp2 -> reverse of temp1 string
+                   if temp1 == temp2 then
+                       count of sub-palindrome is incremented by value 1
+                                                                                           */
+
 #include <bits/stdc++.h>
 using namespace std;
 //start of the script....
@@ -9,15 +19,6 @@ int main() {
     {
        for(iterator2=iterator1+2;iterator2<input.length()+1;iterator2++)
        {
-           /*
-               ### TO CHECK THE WHETHER THE SUB-STRING CONSIDERED IS PALINDROMIC OR NOT ###
-               for i -> 0 to length of the input string do
-                   for j -> i+2 to length of the input string do
-                        temp1 -> input string from index i to j
-                        temp2 -> reverse of temp1 string
-                   if temp1 == temp2 then
-                       count of sub-palindrome is incremented by value 1
-           */
            temp1=input.substr(iterator1,iterator2);  
            temp2=temp1;
            reverse(temp1.begin(),temp1.end());
