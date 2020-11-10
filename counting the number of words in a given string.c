@@ -1,3 +1,9 @@
+/*           
+         The number of spaces plus 1 gives us the total number of words in a space separated string
+                                                                                                           */
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 int main()
