@@ -1,9 +1,9 @@
 /*
                ### TO CHECK THE WHETHER THE SUB-STRING CONSIDERED IS PALINDROMIC OR NOT ###
-               for i -> 0 to length of the input string do
-                   for j -> i+2 to length of the input string do
-                        temp1 -> input string from index i to j
-                        temp2 -> reverse of temp1 string
+               for i <- 0 to length of the input string do
+                   for j <- i+2 to length of the input string do
+                        temp1 <- input string from index i to j
+                        temp2 <- reverse of temp1 string
                    if temp1 == temp2 then
                        count of sub-palindrome is incremented by value 1
                                                                                            */
@@ -11,6 +11,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 //start of the script....
+
 int main() {
     string input,temp1,temp2;            //initializing variables of different datatypes.....
     std::cin>>input;
@@ -30,5 +31,6 @@ int main() {
        }
        std::cout<<palindromic_count;  //printing the no. of sub-palindromes the in input string
 	return 0;
+	
     /* ### END OF THE SCRIPT ### */
 }
