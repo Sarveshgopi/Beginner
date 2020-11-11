@@ -9,8 +9,8 @@
                                              5 10 15 20 25
                                              
                                   THE ALGORITHM IS,
-                                           for i <- 1 to 5 do
-                                               for j <- 1 to 5 do
+                                           for i <- 1 to n do
+                                               for j <- 1 to n do
                                                    write i*j
                                                write newline("\n")
                                                                                     */
