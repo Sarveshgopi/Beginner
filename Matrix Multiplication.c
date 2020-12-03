@@ -19,6 +19,7 @@ int main()
             scanf("%ld ",&b[i][j]);
         }
     }
+    int c[n][p];
     
     return 0;
     }
