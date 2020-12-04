@@ -6,4 +6,4 @@ is only meant to see the logic of the code and you can implement in any of the p
 &nbsp;
 &nbsp;
 &nbsp;
-<p><h3>So Happy Learning.....................CHEERS!!!</h3><p>
+<p><h3>So Happy Learning....CHEERS!!!</h3><p>
