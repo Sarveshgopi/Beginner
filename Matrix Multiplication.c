@@ -20,6 +20,8 @@ int main()
         }
     }
     int c[n][p];
-    
+    for(i=0;i<m;i++)
+    {
+        for()
     return 0;
     }
